@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<addon>
+	<name>grid_manager</name>
+	<title>LaraCMS Grid Manager</title>
+	<image>http://laravel.com/assets/img/logo-head.png</image>
+	<version>1.0</version>
+	<author>bonweb.gr</author>
+	<url>http://www.bonweb.gr</url>
+</addon>
