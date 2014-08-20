@@ -13,7 +13,6 @@
             "role": "Developer"
         }
     ],
-
     "require": {
         "basdog22/laracms_nopublic": "dev-master",
         "laravel/framework": "4.2.*",
