@@ -4,9 +4,19 @@ This is a cms built on laravel framework. This is still in development so please
 
 ## Installation
 
-Edit app/config/database.php and set desired database and credentials. Your user should have the rights to create database
-Edit app/config/app.php and set desired domain
-Edit app/config/cms.php and set installation hash and admin_email.
+Download the software and extract on your desired folder
+
+or
+
+Do a:
+
+    * composer create-project --stability=dev basdog22/laracms_nopublic laracms
+
+Then:
+
+    * Edit framework/app/config/database.php and set desired database and credentials. Your user should have the rights to create database
+    * Edit framework/app/config/app.php and set desired domain
+    * Edit framework/app/config/cms.php and set installation hash and admin_email.
 
 
 If for example the cms is installed on www.example.com
