@@ -15,18 +15,18 @@
     ],
 
     "require": {
-        "basdog22/laracms": "dev-master",
+        "basdog22/laracms_nopublic": "dev-master",
         "laravel/framework": "4.2.*",
         "simplepie/simplepie": "dev-master"
     },
     "autoload": {
         "classmap": [
-            "app/commands",
-            "app/helpers",
-            "app/controllers",
-            "app/models",
-            "app/database/migrations",
-            "app/database/seeds"
+            "framework/app/commands",
+            "framework/app/helpers",
+            "framework/app/controllers",
+            "framework/app/models",
+            "framework/app/database/migrations",
+            "framework/app/database/seeds"
         ]
     },
     "scripts": {
@@ -43,7 +43,8 @@
         ]
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "vendor-dir":"framework/vendor"
     },
     "minimum-stability": "dev"
 }
